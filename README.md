@@ -1,8 +1,14 @@
 # 1. 地学数据快速下载
 
+## 本地下载
 - [x] ECMWF: <https://cds.climate.copernicus.eu>
 - [x] Earthdata: <https://earthdata.nasa.gov>
 - [x] MODIS: <https://e4ftl01.cr.usgs.gov>
+
+## GEE下载
+
+- [x] 切站点数据，[st_extract_ERA5L_SM_st2000.js](GEE/st_extract_ERA5L_SM_st2000.js)
+- [ ] 下载tif数据
 
 ## 1.1. ECMWF
 
