@@ -62,4 +62,6 @@ while (1) {
   
   # 如果所有文件都下载完了
   if (target_last %in% d_url$file) break  
+
+  Sys.sleep(600) # sleep 10mins
 }
