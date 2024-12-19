@@ -14,6 +14,10 @@
 client = cdsapi.Client(wait_until_complete=False)
 ```
 
+完整代码见：[submit_ERA5L_batch.py](submit_ERA5L_batch.py)
+
+```powershell
+
 ### 1.1.2. aria2c下载
 
 > 打开`down_cdsapi.R`文件，设置`target_last`。否则程序一直循环运行，不会结束。
@@ -21,5 +25,7 @@ client = cdsapi.Client(wait_until_complete=False)
 ```powershell
 down_cdsapi.bat
 ```
+
+完整代码见：[down_cdsapi.R](down_cdsapi.R)
 
 ![](images/aria2c_speed.png)
