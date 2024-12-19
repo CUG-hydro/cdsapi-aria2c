@@ -7,7 +7,7 @@
 
 ## GEE下载
 
-- [x] 切站点数据，[st_extract_ERA5L_SM_st2000.js](GEE/st_extract_ERA5L_SM_st2000.js)
+- [x] 切站点数据，[st_extract_ERA5L_SM_st2000.js](src/GEE/st_extract_ERA5L_SM_st2000.js)
 - [ ] 下载tif数据
 
 ## 1.1. ECMWF
@@ -20,7 +20,7 @@
 client = cdsapi.Client(wait_until_complete=False)
 ```
 
-完整代码见：[submit_ERA5L_batch.py](submit_ERA5L_batch.py)
+完整代码见：[submit_ERA5L_batch.py](src/ECMWF/submit_ERA5L_batch.py)
 
 ```powershell
 
@@ -32,6 +32,6 @@ client = cdsapi.Client(wait_until_complete=False)
 down_cdsapi.bat
 ```
 
-完整代码见：[down_cdsapi.R](down_cdsapi.R)
+完整代码见：[down_cdsapi.R](src/ECMWF/down_cdsapi.R)
 
 ![](images/aria2c_speed.png)

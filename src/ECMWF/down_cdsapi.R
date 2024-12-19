@@ -17,6 +17,8 @@ query_fname <- function(job) {
   l$metadata$request$ids$target # filename
 }
 
+# 代码编写过程中在网页端F12调式
+# 授权方法参考了ecmwfr的做法
 query_info <- function() {
   url = "https://cds.climate.copernicus.eu/api/retrieve/v1/jobs?limit=100&status=successful&request=true"
   res <- GET(url, httr::add_headers("PRIVATE-TOKEN" = key)) %>% content()
