@@ -3,3 +3,6 @@ data
 urls.txt
 references
 config.yml
+
+images
+*.pdf
